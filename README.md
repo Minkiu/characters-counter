@@ -3,6 +3,8 @@ An addon that displays the number of characters selected at the context-menu (ri
 
 Inspired by the Chrom Extension: "45to75" - https://chrome.google.com/webstore/detail/45to75/efmppndinjbljeellfdkpghgblenbcdd
 
+![Characters Counter Screenshot](https://github.com/Minkiu/characters-counter/blob/master/screenshot.jpg)
+
 License:
 The MIT License (MIT)
 
