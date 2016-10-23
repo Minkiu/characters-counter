@@ -1,5 +1,8 @@
-#Character Counter
-An addon that displays the number of characters selected at the context-menu (right click).
+#Character Counter 
+![CharacterCounter Logo][logo] 
+[logo]: https://github.com/Minkiu/characters-counter/blob/master/data/icon-64.png
+
+A [Firefox addon](https://addons.mozilla.org/en-US/developers/addon/characters-counter/edit) that displays the number of characters selected at the context-menu (right click).
 
 Inspired by the Chrom Extension: "45to75" - https://chrome.google.com/webstore/detail/45to75/efmppndinjbljeellfdkpghgblenbcdd
 
