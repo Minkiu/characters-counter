@@ -1,11 +1,8 @@
 {
-
   "manifest_version": 2,
   "name": "Character Counter",
   "version": "0.1.0",
-
-  "description": "An addon that displays the number of characters selected, inspired by 45to75 (Chrome) - https://chrome.google.com/webstore/detail/45to75/efmppndinjbljeellfdkpghgblenbcdd",
-
+  "description": "Display the number of characters selected, inspired by 45to75 (Chrome) - https://chrome.google.com/webstore/detail/45to75/efmppndinjbljeellfdkpghgblenbcdd",
   "icons": {
     "16": "icons/icon-16.png",
     "32": "icons/icon-32.png",
@@ -13,13 +10,11 @@
     "128": "icons/icon-128.png"
   },
   "permissions": ["contextMenus","activeTab"],
-  // "background": {
-  //   "scripts": ["character_counter.js"]
-  // }
+  "background": {
+    "scripts": ["character_counter_menu.js"]
+  },
   "content_scripts": [{
-    "matches": ["<all_urls>"],
-    "js": ["character_counter.js"]
-
-  }]
-
+        "matches": ["<all_urls>"],
+        "js": ["character_counter.js"]
+}]
 }

@@ -1,21 +1,7 @@
+window.addEventListener("contextmenu", sendSelection)
 
-browser.contextMenus.create({
-  id: "character-counter",
-  title: "Characters: Fuck me",
-  contexts: ["selection"],
-});
-
-
-function countCharacters(e) {
-  var text = window.getSelection().toString().length;
-
-  browser.contextMenus.update("character-counter", {
-    title: "Characters: "+text,
-  });
-
-
+function sendSelection(){
+    console.log("Hi from the content")
+    var selection_length = document.getSelection().toString().length
+    browser.runtime.sendMessage({"selection": selection_length});
 }
-
-
-
-document.addEventListener("contextmenu", countCharacters);
