@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Character Counter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Display the number of characters selected, inspired by 45to75 (Chrome) - https://chrome.google.com/webstore/detail/45to75/efmppndinjbljeellfdkpghgblenbcdd",
   "icons": {
     "16": "icons/icon-16.png",
